@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(66, 64, 65);
+}
+div{
+    width: 500px;
+    padding: 400px;
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 50px;
+    word-wrap: break-word;
+    background-image: url(../images/frame-top.jpg), url(../images/frame-bottom.jpg), url(../images/frame-middle.jpg);
+    background-position: top center, bottom center, top center;
+    background-repeat: no-repeat, no-repeat, repeat-y;
+    background-size: 100% auto, 100% auto, 100% auto;
+    box-shadow: 0 0 30px 15px rgba(0,0,0,0.4);
+}
+p{
+    margin: 50px 0;
+}
