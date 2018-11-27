@@ -5,12 +5,10 @@
 body{
     background-color: rgb(66, 64, 65);
 }
-div{
+section{
     width: 500px;
     padding: 400px;
-    color: #FFF;
-    margin: 0 auto;
-    font-size: 50px;
+    margin: 100px auto;
     word-wrap: break-word;
     background-image: url(../images/frame-top.jpg), url(../images/frame-bottom.jpg), url(../images/frame-middle.jpg);
     background-position: top center, bottom center, top center;
@@ -19,5 +17,7 @@ div{
     box-shadow: 0 0 30px 15px rgba(0,0,0,0.4);
 }
 p{
+    color: #FFF;
+    font-size: 30px;
     margin: 50px 0;
 }
